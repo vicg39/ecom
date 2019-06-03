@@ -11,7 +11,7 @@ class SignInForm extends Component {
             <form onSubmit={handleSubmit} className={`${className} sign-in-form`}>
                 <Field className='sign-in-form-email'
                     type='email'
-                    title='Email: '
+                    title='Email '
                     placeholder='Email'
                     name='email'
                     component={FormInput} 
@@ -19,20 +19,21 @@ class SignInForm extends Component {
 
                 <Field className='sign-in-form-password'
                     type='password'
-                    title='Password: '
+                    title='Password '
                     placeholder='Password'
                     name='password'
                     component={FormInput} 
                 />
-
-                <Field className='sign-in-form-login'
-                    onClick={() => console.log('trying to submit')}
-                    type='submit'
-                    title='Login: '
-                    placeholder='login'
-                    name='login'
-                    component={FormButton} 
-                />
+                <div className="sign-in-form-line"></div> 
+                    <Field className='sign-in-form-login'
+                        onClick={() => console.log('trying to submit')}
+                        type='submit'
+                        title='Login '
+                        placeholder='login'
+                        name='login'
+                        component={FormButton} 
+                    />
+                   
             </form>
         )
     }
