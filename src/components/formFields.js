@@ -15,4 +15,20 @@ export class FormInput extends Component {
     }
 }
 
-export default FormInput;
+// export default FormInput;
+
+export class FormButton extends Component {
+    render() {
+        const { className, title, type, onClick, input } = this.props;
+        return(
+            <div className={`${className} form-btn`}>
+                <button className={`form-btn-btn`}
+                    type={type}
+                    {...input}
+                    onClick={onClick}>
+                    {title}
+                </button>
+            </div>
+        )
+    }
+}
