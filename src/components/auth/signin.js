@@ -13,7 +13,7 @@ class SignIn extends Component {
             <div className="sign-in">
                 <PageTitle className="sign-in-page-title" title="login"/>
                 <SignInForm  onSubmit={this.onSubmit} className="sign-in-form" />
-                <h1>sign in </h1>
+                <h1> </h1>
             </div>
         )
     }

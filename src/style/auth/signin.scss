@@ -27,11 +27,18 @@
     .sign-in-form-line {
         grid-row: line-s/line-e;
         border-top: 1px solid #ccc;
+        grid-column: 1/-1
         
     }
     
     &-login {
         margin-top: 39px;
         grid-row: login-s/login-e
+    }
+
+    .details {
+        grid-row: 1/-1;
+        justify-self: end;
+        align-self: start;
     }
 }
