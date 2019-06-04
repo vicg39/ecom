@@ -5,24 +5,8 @@ import {
 } from '../actions/types';
 
 const INITIAL_STATE = {
-    headerLinks: [
-        {
-            title: 'Shop'
-        },
-        {
-            title: 'Logout'
-        }
-    ],
-    navbarLinks: [
-        {
-            title: 'Purchase History',
-            active: true
-        },
-        {
-            title: 'Account Information',
-            active: false
-        }
-    ]
+    headerLinks: [],
+    navbarLinks: []
     
 }
 
