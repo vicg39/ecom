@@ -11,8 +11,8 @@ class SignUp extends Component {
     render() {
         return(
             <div className="sign-up">
-            sign up
-                <PageTitle className="sign-up-page-title" title="register"/>
+           
+                <PageTitle className="sign-up-page-title" title="Register"/>
                 <SignUpForm  onSubmit={this.onSubmit} className="sign-up-form" />
                 <h1> </h1>
             </div>
