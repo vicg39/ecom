@@ -20,4 +20,3 @@ class PurchaseHistory extends Component {
 }
 
 export default PurchaseHistory;
-©

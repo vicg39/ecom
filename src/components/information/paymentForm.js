@@ -14,7 +14,7 @@ class PaymentForm extends Component {
         const { className, handleSubmit } = this.props;
   
         return (
-            <form onSubmit={handleSubmit} className={`${className} payment-form`}>
+            <form onSubmit={handleSubmit} className={`${className} payment-form`} >
                 <Field className='payment-form__name'
                 type='name'
                 title='Name on Credit Card'
